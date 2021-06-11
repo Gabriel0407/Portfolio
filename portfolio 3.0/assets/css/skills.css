@@ -1,0 +1,113 @@
+.section2 {
+  font-family: fira-mono, monospace;
+  font-style: normal;
+  font-weight: 400;
+  color: #0F0140; }
+  .section2 .h2-skill {
+    font-size: 35px;
+    width: 239px;
+    margin: 130px auto 0px auto;
+    text-align: center; }
+  .section2 .skills {
+    margin: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; }
+    .section2 .skills .skill {
+      width: 40%;
+      margin: 0 5% 40px 5%; }
+      .section2 .skills .skill .icon {
+        font-size: 85px;
+        margin-bottom: 10px;
+        color: #5704CC; }
+        body.dark .section2 .skills .skill .icon {
+          color: #FF00A6; }
+  .section2 .triangle {
+    display: none; }
+  .section2 .interpersonalskills {
+    font-size: 20px;
+    text-align: center; }
+    .section2 .interpersonalskills .team {
+      margin: 83px  57px 45px 131px; }
+    .section2 .interpersonalskills .time {
+      margin: 0  82px   45px 58px; }
+    .section2 .interpersonalskills .comm {
+      margin: 0  129px  45px 35px; }
+    .section2 .interpersonalskills .lead {
+      margin: 0 152px 45px 48px; }
+    .section2 .interpersonalskills .prob {
+      margin: 0 82px 45px   58px; }
+    .section2 .interpersonalskills .deta {
+      margin: 0 42px 0 98px; }
+  body.dark .section2 .h2-skill {
+    color: white; }
+  body.dark .section2 .p-skill {
+    color: white;
+    text-shadow: 1px 6px 12px #FF00A6; }
+  body.dark .section2 .interpersonalskills {
+    color: white;
+    text-shadow: 1px 2px 6px #FF00A6; }
+
+@media (min-width: 1024px) {
+  .section2 .h2-skill {
+    font-size: 40px; }
+  .section2 .skills .skill {
+    width: 23.3%; }
+  .section2 .triangle {
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 1px;
+    border-right: 300px solid transparent;
+    border-left: 300px  solid transparent;
+    border-top: 500px solid #5704CC;
+    margin: auto; }
+    body.dark .section2 .triangle {
+      border-top: 500px solid #FF00A6; }
+    .section2 .triangle .triangle2 {
+      position: absolute;
+      margin: -494px -285px;
+      width: 0;
+      height: 0;
+      border-right: 285px solid transparent;
+      border-left: 285px  solid transparent;
+      border-top: 480px solid white; }
+      body.dark .section2 .triangle .triangle2 {
+        border-top: 480px solid #0F0140; }
+  .section2 .interpersonalskills {
+    font-size: 27px;
+    text-align: center;
+    font-size: 27px;
+    width: 100%;
+    margin: -420px auto;
+    position: absolute; }
+    .section2 .interpersonalskills .team {
+      margin: 0 6%;
+      position: absolute; }
+    .section2 .interpersonalskills .time {
+      margin: 0px 75%;
+      width: 244px;
+      position: absolute; }
+    .section2 .interpersonalskills .comm {
+      margin: 180px 12%;
+      position: absolute; }
+    .section2 .interpersonalskills .lead {
+      margin: 180px 68%;
+      position: absolute; }
+    .section2 .interpersonalskills .prob {
+      margin: 350px 20%;
+      position: absolute; }
+    .section2 .interpersonalskills .deta {
+      margin: 350px 57%;
+      position: absolute;
+      width: 244px; }
+  body.dark .section2 .h2-skill {
+    color: white; }
+  body.dark .section2 .p-skill {
+    color: white;
+    text-shadow: 1px 6px 12px #FF00A6; }
+  body.dark .section2 .interpersonalskills {
+    color: white;
+    text-shadow: 1px 2px 6px #FF00A6; } }
+
+/*# sourceMappingURL=skills.css.map */

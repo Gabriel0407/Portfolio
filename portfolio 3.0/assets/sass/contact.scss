@@ -1,0 +1,64 @@
+.section4{
+    font-family: fira-mono, monospace;
+    font-style: normal;
+    font-weight: 400;
+color: #0F0140;
+    .contact{
+        width: 239px;
+        
+        font-size: 35px;
+        text-align: center;
+        margin: 152px auto 0px auto;
+    }
+  .links{
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      .icon-h3{
+        color: #5704CC;
+      }
+     .mail{
+         margin: auto;
+         font-size: 15px;
+         margin-bottom: 51px;
+     }
+     .number{
+        margin: auto;
+        font-size: 15px;
+        margin-bottom: 51px;
+     }
+     .links{
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        .icon-link{
+            margin: 0 20px 51px 20px;
+            font-size: 40px;
+            
+        }
+     }
+  }
+  body.dark &{
+      .contact{
+          color: white;
+      }
+      .links{
+          .icon-h3{
+            color:  #9c0166;
+            
+          }
+          .mail{
+              color: white;
+              text-shadow: 1px 2px 6px #fc73cc;
+          }
+          .number{
+              color: white;
+              text-shadow: 1px 2px 6px #fc73cc;
+          }
+          .icon-link{
+            color:  #9c0166;
+            box-shadow: 0px 3px 5px -4px #fc73cc;
+          }
+      }
+  }
+}

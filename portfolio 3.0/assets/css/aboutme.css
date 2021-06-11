@@ -1,0 +1,56 @@
+.section1 {
+  font-family: fira-mono, monospace;
+  font-style: normal;
+  font-weight: 400; }
+  .section1 .h2-about-me {
+    font-size: 35px;
+    color: #0B0340;
+    width: 239px;
+    text-align: center;
+    margin: 155px 0 0 13px; }
+  .section1 .line {
+    width: 240px;
+    height: 2.5px;
+    background: #5704CC;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    border-radius: 4px; }
+  .section1 .p-about-me {
+    width: 252px;
+    margin: auto;
+    color: #0B0340;
+    font-size: 15px; }
+  body.dark .section1 .h2-about-me {
+    color: white; }
+  body.dark .section1 .line {
+    background: #FFF1FA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #FF00A6;
+    border: 2px solid #FF00A6;
+    border-radius: 4px; }
+  body.dark .section1 .p-about-me {
+    color: white; }
+
+@media (min-width: 1024px) {
+  .section1 .h2-about-me {
+    font-size: 40px;
+    margin: 155px 0 0 7%; }
+  .section1 .line {
+    width: 305px;
+    height: 4.5px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    border-radius: 10px; }
+  .section1 .p-about-me {
+    width: 80%;
+    font-size: 25px; }
+  body.dark .section1 .h2-about-me {
+    color: white; }
+  body.dark .section1 .line {
+    background: #FFF1FA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #FF00A6;
+    border: 2px solid #FF00A6;
+    border-radius: 4px; }
+  body.dark .section1 .p-about-me {
+    color: white; } }
+
+/*# sourceMappingURL=aboutme.css.map */

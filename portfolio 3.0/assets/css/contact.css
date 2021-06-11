@@ -1,0 +1,46 @@
+.section4 {
+  font-family: fira-mono, monospace;
+  font-style: normal;
+  font-weight: 400;
+  color: #0F0140; }
+  .section4 .contact {
+    width: 239px;
+    font-size: 35px;
+    text-align: center;
+    margin: 152px auto 0px auto; }
+  .section4 .links {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column; }
+    .section4 .links .icon-h3 {
+      color: #5704CC; }
+    .section4 .links .mail {
+      margin: auto;
+      font-size: 15px;
+      margin-bottom: 51px; }
+    .section4 .links .number {
+      margin: auto;
+      font-size: 15px;
+      margin-bottom: 51px; }
+    .section4 .links .links {
+      margin: auto;
+      display: flex;
+      flex-direction: row; }
+      .section4 .links .links .icon-link {
+        margin: 0 20px 51px 20px;
+        font-size: 40px; }
+  body.dark .section4 .contact {
+    color: white; }
+  body.dark .section4 .links .icon-h3 {
+    color: #9c0166; }
+  body.dark .section4 .links .mail {
+    color: white;
+    text-shadow: 1px 2px 6px #fc73cc; }
+  body.dark .section4 .links .number {
+    color: white;
+    text-shadow: 1px 2px 6px #fc73cc; }
+  body.dark .section4 .links .icon-link {
+    color: #9c0166;
+    box-shadow: 0px 3px 5px -4px #fc73cc; }
+
+/*# sourceMappingURL=contact.css.map */
